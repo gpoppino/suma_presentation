@@ -44,7 +44,7 @@ Para ver la documentación hacer click [aquí](https://www.suse.com/documentatio
 
 Un canal de software agrupa paquetes o patches para su distribución. La agrupación en general es por producto (SLES 12 SP3 o SLES 15 SP1, por ejemplo).
 
-Los sistemas clientes se suscriben a dichos canales para recibir su contenido. El proceso de suscripción puede ser mediante un _bootstrap script_ o configuración de su cliente de _Salt_. La asociación entre sistema y canal la da una _subscription key_.
+Los sistemas clientes se suscriben a dichos canales para recibir su contenido. El proceso de suscripción puede ser mediante un _bootstrap script_ o configuración de su cliente de _Salt_. La asociación entre sistema y canal la da un _activation key_.
 
 Existen dos tipos de canales:
 
@@ -71,7 +71,7 @@ Para más información hacer click [aquí](https://www.suse.com/documentation/su
 
 Los sistemas clientes de SUSE Manager pueden ser agrupados en [_system groups_](https://www.suse.com/documentation/suse-manager-3/3.2/susemanager-reference/html/book.suma.reference.manual/ref.webui.systems.systems.html#ref.webui.systems.systemgroups) para su mejor gestión.
 
-Un sistema puede ser asociado a un grupo durante el proceso de bootstrap con una _subscription key_ o manualmente.
+Un sistema puede ser asociado a un grupo durante el proceso de bootstrap con un _activation key_ o manualmente.
 
 Un [_system set_](https://www.suse.com/documentation/suse-manager-3/3.2/susemanager-reference/html/book.suma.reference.manual/ref.webui.systems.systems.html#ref.webui.systems.ssm) es un grupo temporal de sistemas sobre los que se desea trabajar.
 
